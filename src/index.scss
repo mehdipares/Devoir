@@ -1,0 +1,103 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@font-face {
+  font-family: 'nuno';
+  src: url('./fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf') format('truetype');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav p {
+  color: white;
+  padding-left: 25px;
+}
+nav a {
+  padding: 5px;
+  color: white;
+  
+}
+.navbar-brand {
+  color: blue;
+}
+
+.Home_main_background{
+  background-image: url('./images/images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 58em;
+  margin: auto;
+  color: white;
+  font-family: 'nuno';
+}
+.Home_main_hello {
+  padding-top: 22em;
+  text-align: center;
+}
+header nav{
+  border-color: #212529;
+}
+.A_propos img { 
+  max-width: 100%;
+  
+ 
+}
+
+
+.home_main_bloc{
+  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  font-family: 'nuno';
+  font-size: large;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 800px;
+  width: 1200px;
+  box-shadow: 10px 20px 30px #cdd4db;
+}
+.Home_main_article{
+  margin-top: 2em;
+}
+.Home_main_bars{
+  margin-top: 1em;
+}
+.A_propos{
+  width: 50%;
+}
+.Home_main_skills {
+ margin-left: 2em;
+ width: 50%;
+
+}
+footer {
+  display: flex;
+  background-color: #212529;
+  color: white;
+  justify-content:space-evenly;
+  
+}
+
+.John_Doe a {
+  text-decoration: none;
+  color: white;
+}
+
+.Titre_footer {
+  margin-bottom: 1em;
+}

@@ -1,62 +1,81 @@
 
-import Button from 'react-bootstrap/Button';
-import img1 from "../images/images/john-doe-about.jpg"
+import img1 from "../images/images/john-doe-about.jpg";
 const Home = () => {
     return (
-        <div>
-            <header className="Home_header">
-                <div className='Home_header_text'>
+        <section className="home_main">
+            <div className='Home_main_background'>
+              <div className="Home_main_hello">
                     <h1>Bonjour, je suis John Doe</h1>
                     <h2>Développeur web full stack</h2>
                     <button type="button" class="btn btn-danger">Danger</button>
-                </div>
-            </header>
-            <main>
-                <section className="home_main">
-                    <div className='home_main_bloc'>
-                        <div className="A_propos">
-                            <h3>A propos</h3>
-                            <hr class="border border-primary border-2 opacity-75"></hr>
-                            <img src={img1}></img>
-                            <p>
-                            Nullam ultricies malesuada venenatis. Praesent blandit placerat urna id rutrum. Vestibulum magna lorem, tempus sit amet dapibus non, pharetra sed risus.
-                            </p>
-                            <p>
-                            Morbi rhoncus, lacus et viverra molestie, orci urna blandit odio,  sollicitudin id quis nisl. Phasellus felis mi, tempor et lacus in, malesuada consectetur nunc.
-                            </p>
-                            <p>
-                            ellentesque ut laoreet massa. Fusce velit massa, sodales sit amet nisi id, vestibulum dapibus tortor. Mauris accumsan dolor felis, in tempor massa iaculis ac. 
-                            </p>
-                            
-                        </div>
-                        <div className="Home_main_skills">
-                        <h3>Mes compétences</h3>
-                        <hr class="border border-primary border-2 opacity-75"></hr>
-                            <div className="Skills_container">
-                                <div className="skills">
-                                    <span>HTML5</span>
-                                    <div className="bar_red"><div className="progress"></div></div>
-                                    <span>css3</span>
-                                    <div className="bar_blue"><div className="progress"></div></div>
-                                    <span>javascript</span>
-                                    <div className="bar_yellow"><div className="progress"></div></div>
-                                    <span>php</span>
-                                    <div className="bar_green"><div className="progress"></div></div>
-                                    <span>react</span>
-                                    <div className="bar_blackblue"><div className="progress"></div></div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            <footer>
-                
-            </footer>
+              </div>
+            </div>
 
-        </div>
-           
+
+            <div className='home_main_bloc'>
+              <div className="A_propos">
+                <h3 classname>A propos</h3>
+                <hr class="border border-primary border-2 opacity-75"></hr>
+                <section className="Home_main_article">
+                  <img src={img1}></img>
+                  <p>
+                  Nullam ultricies malesuada venenatis. Praesent blandit placerat urna id rutrum. Vestibulum magna lorem, tempus sit amet dapibus non, pharetra sed risus.
+                  </p>
+                  <p>
+                  Morbi rhoncus, lacus et viverra molestie, orci urna blandit odio,  sollicitudin id quis nisl. Phasellus felis mi, tempor et lacus in, malesuada consectetur nunc.
+                  </p>
+                  <p>
+                  ellentesque ut laoreet massa. Fusce velit massa, sodales sit amet nisi id, vestibulum dapibus tortor. Mauris accumsan dolor felis, in tempor massa iaculis ac. 
+                  </p>
+                </section>
+              </div>
+
+              <div className="Home_main_skills">
+                <h3>Mes compétences</h3>
+                <hr class="border border-primary border-2 opacity-75"></hr>
+
+                <section className="Home_main_article">
+              
+                  <div className="Skills_container">
+                      <div className="Home_main_bar_container">
+                        <div classname="Home_main_bars">
+                          <span>HTML 90%</span>
+                          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-danger" style={{width: 90 + '%'}}></div>
+                          </div>
+                        </div>
+                        <div className="Home_main_bars">
+                          <span>CSS3 80%</span>
+                          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-info" style={{width: 80 + '%'}}></div>
+                          </div>
+                        </div>
+                        <div className="Home_main_bars">
+                          <span>JAVASCRIPT 70%</span>
+                          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning" style={{width: 70 + '%'}}></div>
+                        </div>
+                        <div className="Home_main_bars">
+                          </div>
+                          <span>PHP 60%</span>
+                          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-success" style={{width: 60 + '%'}}></div>
+                          </div>
+                        </div>
+                        <div className="Home_main_bars">
+                          <span>REACT 50%</span>
+                          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style={{width: 50 + '%'}}></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                </section>
+            </div>
+
+            </div>
+          </section>
     )
+    
 }
 export default Home;

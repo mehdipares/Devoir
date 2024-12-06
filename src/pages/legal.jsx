@@ -3,7 +3,7 @@
 const Mentions = () => {
     return (
         <div>
-            <h1>MENTIONS LEGALESs</h1>
+            <h1>Mentions légales</h1>
         </div>
     )
 }
