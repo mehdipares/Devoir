@@ -1,14 +1,19 @@
+import {Routes, Route} from "react-router-dom";
+import { Navicontact } from "../elements/navicontact";
+
 const Contact = () => {
     return (
-        <div>
+        <div className="cont">
             <header>
-
+                <Navicontact/>
             </header>
-            <h1>contact</h1>
             <main>
-                
+                <h1>tolo</h1>
             </main>
         </div>
-    )
+    );
+      
+           
+            
 }
 export default Contact;
