@@ -14,27 +14,19 @@ body {
   src: url('./fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf') format('truetype');
 }
 
+*{
+  font-family: 'nuno';
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-nav p {
-  color: white;
-  padding-left: 25px;
-}
-nav a {
-  padding: 5px;
-  color: white;
-  
-}
-.navbar-brand {
-  color: blue;
-}
-
+                 /*Home style*/
 .Home_main_background{
   background-image: url('./images/images/hero-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 58em;
   margin: auto;
   color: white;
@@ -43,18 +35,15 @@ nav a {
 .Home_main_hello {
   padding-top: 22em;
   text-align: center;
-}
-header nav{
-  border-color: #212529;
-}
-.A_propos img { 
-  max-width: 100%;
   
- 
+}
+
+.home_main_a_propos img { 
+  max-width: 100%;
 }
 
 
-.home_main_bloc{
+.home_main_bloc, .Contact_main_bloc{
   
   border-radius: 10px;
   display: flex;
@@ -77,7 +66,7 @@ header nav{
 .Home_main_bars{
   margin-top: 1em;
 }
-.A_propos{
+.home_main_a_propos{
   width: 50%;
 }
 .Home_main_skills {
@@ -85,19 +74,122 @@ header nav{
  width: 50%;
 
 }
-footer {
-  display: flex;
-  background-color: #212529;
-  color: white;
-  justify-content:space-evenly;
-  
+                /*services style*/
+.services_banner {
+  background-image: url("./images/images/banner.jpg");
+  height: 18em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.services_liste, .folio_titre, .Contact_titre, .Mentions_titre {       /*TITLE SERVICE, TITLE FOLIO , TITLE MENTIONS AND TITLE CONTACT */
+  width: 30em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+.services_liste hr {
+  width: 26em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.John_Doe a {
+.services_blocs {
+  display: flex;
+  flex-direction: row;
+  width: 86em;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 2em;
+  
+
+
+}
+.serices_bloc_options {
+  border: solid;
+  border-color: #dbd6d68f;
+  border-radius: 5px;
+  height: 20em;
+  width: 20em;
+  
+}
+.services_blocs img {
+  width: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+.services_blocs .card {
+  margin: 2em;
+  
+}
+                /*portefoliostyle*/
+.folio_liste {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3em;
+}
+.folio_titre {
+  margin-bottom: 5em;
+}
+
+.col {
+  margin-bottom: 2em;
+}
+
+
+                /*Contact Style */
+.form-control{
+  margin:1em;
+}
+label {
+  margin-left: 1em;
+}
+.Contact_main_icones{
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  
+}
+.Contact_main_icones p  {
+  margin-left: 7px;
+}
+.Contact_main_icones a {
+  margin-left: 7px;
+}
+
+                /*Mentions légale style*/
+.Mentions_liste {
+  width: 80em;
+  margin-left: auto;
+  margin-right: auto;
+}
+            
+                /*Footer style*/
+
+
+.footer_John_Doe_Social img{
+  opacity: 0.3;
+  margin-right: 10px;
+}
+
+.footer {
+  
+  background-color: #212529;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+
+}
+
+.footer_John_Doe a {
   text-decoration: none;
   color: white;
 }
 
-.Titre_footer {
+.footer_John_Doe_titre {
   margin-bottom: 1em;
+  padding-top: 1em;
 }

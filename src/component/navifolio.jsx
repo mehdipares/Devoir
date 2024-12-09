@@ -1,7 +1,7 @@
 import {Routes, Route} from "react-router-dom";
 
 
-export function Navicontact () {
+export function Navifolio () {
   return(
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
@@ -12,19 +12,19 @@ export function Navicontact () {
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              <a class="nav-link"  href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="portefolio">PORTEFOLIO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacts">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="legal">MENTIONS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portefolio">PORTEFOLIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Services">SERVICES</a>
+              <a class="nav-link" href="legal">MENTIONS LEGALES</a>
             </li>
           </ul>
           
@@ -33,3 +33,10 @@ export function Navicontact () {
     </nav>
   );
 }
+
+
+
+
+
+
+
