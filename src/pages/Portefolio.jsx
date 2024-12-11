@@ -21,8 +21,8 @@ const Portefolio = () => {
                 <p>voici quelques-une de mes réalisations.</p>
                 <hr class="border border-primary border-3 opacity-100"></hr>
             </div>
-            <div className="folio_liste"  style={{width: 80 + 'rem'}}>
-                <div class="row row-cols-1 row-cols-md-3 g-4" style={{width: 80 + 'rem'}}>
+            <div className="folio_liste">
+                <div class="groupe_cards">
                         <div class="col">
                             <div class="card text-center h-100">
                             <img src={Freshfood} class="card-img-top" alt="..."></img>
@@ -63,7 +63,7 @@ const Portefolio = () => {
                             </div>
                         </div>
                     </div>
-                        <div class="row row-cols-1 row-cols-md-3 g-4" style={{width: 80 + 'rem'}}>
+                        <div class="groupe_cards">
                         <div class="col">
                             <div class="card text-center h-100">
                             <img src={Seo} class="card-img-top" alt="..."></img>

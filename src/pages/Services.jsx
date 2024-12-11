@@ -20,7 +20,7 @@ const Services = () => {
                 <hr class="border border-primary border-3 opacity-100"></hr>
             </div>
             <div className="services_blocs">
-                <div class="card text-center mb-3" style={{width: 28 + 'rem'}} >
+                <div class="card text-center mb-3"  >
                     <img src={brush} class="card-img-top" alt="..."></img>
                     <div class="card-body">
                         <h5 class="card-title">UX Design</h5>
@@ -32,7 +32,7 @@ const Services = () => {
                     </div>
                     
                 </div>
-                <div class="card text-center mb-3" style={{width: 28 + 'rem'}}>
+                <div class="card text-center mb-3" >
                     <img src={html} class="card-img-top" alt="..."></img>
                     <div class="card-body">
                         <h5 class="card-title">UX Design</h5>
@@ -44,7 +44,7 @@ const Services = () => {
                     </div>
                     
                 </div>
-                <div class="card text-center mb-3" style={{width: 28 + 'rem'}}>
+                <div class="card text-center mb-3" >
                     <img src={loupe} class="card-img-top" alt="..."></img>
                     <div class="card-body">
                         <h5 class="card-title">UX Design</h5>

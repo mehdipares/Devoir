@@ -60,7 +60,7 @@ body {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  height: 800px;
+  height: 45em;
   width: 1200px;
   box-shadow: 10px 20px 30px #cdd4db;
 }
@@ -78,6 +78,9 @@ body {
  width: 50%;
 
 }
+
+
+
                 /*services style*/
 .services_banner {
   background-image: url("./images/images/banner.jpg");
@@ -127,9 +130,16 @@ body {
 .services_blocs .card {
   margin: 2em;
   
+    
+  
 }
+
+
+
+
                 /*portefoliostyle*/
 .folio_liste {
+  width: 80em;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 3em;
@@ -137,9 +147,17 @@ body {
 .folio_titre {
   margin-bottom: 5em;
 }
+.groupe_cards {
+  display: flex;
+}
 
 .col {
   margin-bottom: 2em;
+  margin-left: 1em;
+}
+
+.row{
+  width: 80em;
 }
 
 
@@ -161,6 +179,12 @@ label {
 }
 .Contact_main_icones a {
   margin-left: 7px;
+}
+.Skills_container iframe {
+  width: 30em;
+  height: 20em ;
+  border: 0px;
+  max-width: 100%;
 }
 
                 /*Mentions légale style*/
@@ -204,3 +228,246 @@ label {
   
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  //TABLET MENTIONS LEGALES//
+  
+  .Mentions_liste {
+    width: 90%;
+    margin-top: 0em;
+    margin-bottom: 3em;
+  
+  }
+  .Mentions_titre hr {
+    width: 6em;
+    margin: 1em auto 3em auto;
+
+  }
+  //TABLET CONTACT STYLE//
+  .Contact_main_bloc {
+    padding: 1em;
+    max-width: 100%;
+    width: 90%;
+    height: auto;
+    
+    h3 {
+      font-size: 24px;
+    }
+  }
+  .form-control{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-top: 0.3em;  
+
+  }
+   .Skills_container iframe {
+    width: 30em;
+    height: 20em ;
+    border: 0px;
+   }
+//TABLET FOLIO STYLE//
+.folio_liste {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.folio_titre hr {
+  width: 20em;
+  margin: auto;
+
+}
+.groupe_cards {
+  display: flex;
+  
+  
+}
+.groupe_cards .col {
+  font-size: 15px;
+
+  
+}
+
+//TABLET SERVICES STYLE//
+.services_blocs {
+  display: flex;
+  width: 90%;
+}
+.services_blocs .card {
+ 
+  font-size: 10px;
+  
+  
+  
+}
+//HOME TABLET STYLE//
+.home_main_bloc {
+  margin: auto;
+  padding: 1em;
+  max-width: 100%;
+  width: 90%;
+  margin-bottom: 1em;
+  height: auto;
+  
+}
+.Home_main_article{
+  margin-top: 2em;
+  width: 100%;
+  font-size: small;
+}
+.Home_main_bars{
+  margin-top: 1em;
+}
+.home_main_a_propos{
+  width: 100%;
+}
+.Home_main_skills{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+}
+
+
+//MOBILE QUERRIES//
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  //HOME MOBILE STYLE//
+    .home_main_bloc, .Contact_main_bloc {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      max-width: 100%;
+      width: 90%;
+      height: 68em;
+      margin-bottom: 1em;
+      
+    }
+    .Home_main_article{
+      margin-top: 2em;
+      width: 100%;
+    }
+    .Home_main_bars{
+      margin-top: 1em;
+    }
+    .home_main_a_propos{
+      width: 100%;
+    }
+    .Home_main_skills{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    //SERVICE MOBILE STYLE//
+  
+    .services_blocs {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .services_blocs .card {
+      margin: 2em;
+      width: 90%;
+      margin: auto;
+      
+      
+    }
+    .services_liste,.folio_titre, .Contact_titre, .Mentions_titre {
+      width: 90%;
+      margin: auto;
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+    .services_liste hr {
+      width: 10em;
+    }
+    .services_banner {
+      background-image: url("./images/images/banner.jpg");
+      height: 8em;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    //FOOTER MOBILE STYLE//
+    
+    .footer {
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-bottom: 0px; 
+    padding-left: 2em;
+  
+    }
+
+    //FOLIO MOBILE STYLE//
+
+    .folio_titre hr {
+      width: 10em;
+      margin: auto;
+    }
+
+    .folio_liste {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+     
+    }
+    .groupe_cards {
+      display: flex;
+      flex-direction: column;
+    }
+    .groupe_cards .col {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+ //CONTACT MOBILE STYLE//
+
+     .form-control{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2px;
+      margin-top: 0.3em;  
+  
+    }
+     .Skills_container iframe {
+      width: 30em;
+      height: 20em ;
+      border: 0px;
+     }
+
+      //MENTION LEGALES MOBILE STYLE//
+
+      .Mentions_liste {
+        width: 90%;
+        margin-top: 0em;
+        margin-bottom: 3em;
+      
+      }
+      .Mentions_titre hr {
+        width: 6em;
+        margin: 1em auto 0.1em auto;
+
+      }
+      
+     
+     
+}
+
+
+
+  
+ 
