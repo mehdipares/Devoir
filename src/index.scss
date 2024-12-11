@@ -21,6 +21,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  margin-bottom: 0;
+  height: 100%;
+}
                  /*Home style*/
 .Home_main_background{
   background-image: url('./images/images/hero-bg.jpg');
@@ -164,6 +168,8 @@ label {
   width: 80em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15em;
+  margin-top: 10em;
 }
             
                 /*Footer style*/
@@ -181,6 +187,7 @@ label {
   display: flex;
   flex-direction: row;
   justify-content:space-evenly;
+  margin-bottom: 0px;
 
 }
 
@@ -192,4 +199,8 @@ label {
 .footer_John_Doe_titre {
   margin-bottom: 1em;
   padding-top: 1em;
+
+
+  
 }
+

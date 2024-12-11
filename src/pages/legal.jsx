@@ -78,7 +78,7 @@ export default function Mentions() {
                     </div>
                 </div>
             </main>
-            <h1>Mentions légales</h1>
+            
         </div>
     )
 }
