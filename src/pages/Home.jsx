@@ -14,7 +14,7 @@ const Home = () => {
           <section className="home_main">
               <div className='Home_main_background'>
                 <div className="Home_main_hello">
-                      <h1>Bonjour, je suis John Doe</h1>
+                      <h1><strong>Bonjour, je suis John Doe</strong></h1>
                       <h2>Développeur web full stack</h2>
                       <button type="button" class="btn btn-danger">En savoir plus</button>
                 </div>
@@ -48,31 +48,31 @@ const Home = () => {
                     <div className="Skills_container">
                         <div className="Home_main_bar_container">
                           <div classname="Home_main_bars">
-                            <span>HTML 90%</span>
+                            <p>HTML 90%</p>
                             <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                   <div class="progress-bar bg-danger" style={{width: 90 + '%'}}></div>
                             </div>
                           </div>
                           <div className="Home_main_bars">
-                            <span>CSS3 80%</span>
+                            <p>CSS3 80%</p>
                             <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                               <div class="progress-bar bg-info" style={{width: 80 + '%'}}></div>
                             </div>
                           </div>
                           <div className="Home_main_bars">
-                            <span>JAVASCRIPT 70%</span>
+                            <p>JAVASCRIPT 70%</p>
                             <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                               <div class="progress-bar bg-warning" style={{width: 70 + '%'}}></div>
                           </div>
                           <div className="Home_main_bars">
                             </div>
-                            <span>PHP 60%</span>
+                            <p>PHP 60%</p>
                             <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                               <div class="progress-bar bg-success" style={{width: 60 + '%'}}></div>
                             </div>
                           </div>
                           <div className="Home_main_bars">
-                            <span>REACT 50%</span>
+                            <p>REACT 50%</p>
                             <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                               <div class="progress-bar" style={{width: 50 + '%'}}></div>
                             </div>

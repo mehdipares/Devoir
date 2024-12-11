@@ -14,13 +14,13 @@ export default function Contacts () {
             <main>
             <div className="Contact_titre">
                 <h1>Contact</h1>
-                <p>voici quelques-une de mes réalisations.</p>
+                <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
                 <hr class="border border-primary border-3 opacity-100"></hr>
             </div>
             <div className='Contact_main_bloc'>
                 <div className="home_main_a_propos">
                   <h3 classname>Formulaire de contact</h3>
-                  <hr class="border border-primary border-2 opacity-75"></hr>
+                  <hr class="border border-primary border-2 opacity-100"></hr>
                   <section className="Contact_main_article">
                   <input class="form-control form-control-lg" type="text" placeholder="Votre Nom" aria-label=".form-control-lg example"></input>
                   <input class="form-control form-control-lg" type="text" placeholder="Votre Adresse Mail" aria-label=".form-control-lg example"></input>

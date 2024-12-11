@@ -10,12 +10,21 @@ body {
 
 
 @font-face {
-  font-family: 'nuno';
-  src: url('./fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf') format('truetype');
+  font-family: 'nuno_bold';
+  src: url('./fonts/Nunito_Sans/static/Raleway-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'nuno_body';
+  src: url('./fonts/Nunito_Sans/static/Raleway-Regular.ttf') format('truetype');
 }
 
+h1{
+  font-family: 'nuno_bold';
+}
+
+
 *{
-  font-family: 'nuno';
+  font-family: 'nuno_body';
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -26,6 +35,11 @@ body {
   height: 100%;
 }
                  /*Home style*/
+                 
+.home_main h1, strong{ 
+  font-family: 'nuno_bold';
+  font-size: 200%;
+}
 .Home_main_background{
   background-image: url('./images/images/hero-bg.jpg');
   background-repeat: no-repeat;
@@ -35,15 +49,26 @@ body {
   margin: auto;
   color: white;
   font-family: 'nuno';
+  filter: contrast(1);
+  filter: grayscale(20%);
+  filter: brightness(-2);
+  
 }
+
 .Home_main_hello {
   padding-top: 22em;
   text-align: center;
   
 }
+.Home_main_hello h2 {
+  font-family: 'nuno_bold';
+  font-size: 400%;
+}
 
 .home_main_a_propos img { 
   max-width: 100%;
+  margin-bottom: 1em;
+  
 }
 
 
@@ -78,10 +103,16 @@ body {
  width: 50%;
 
 }
-
+.Home_main_bars p{
+  margin-top: 0;
+}
 
 
                 /*services style*/
+
+.services_liste p {
+  font-size: small;
+}
 .services_banner {
   background-image: url("./images/images/banner.jpg");
   height: 18em;
@@ -130,8 +161,6 @@ body {
 .services_blocs .card {
   margin: 2em;
   
-    
-  
 }
 
 
@@ -143,6 +172,11 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 3em;
+}
+
+.card-title h5{
+  font-family: 'nuno_bold';
+  font-size: small;
 }
 .folio_titre {
   margin-bottom: 5em;
@@ -163,10 +197,29 @@ body {
 
                 /*Contact Style */
 .form-control{
-  margin:1em;
+  margin-top:1em;
+ 
 }
 label {
-  margin-left: 1em;
+  padding: 0;
+  margin-left: 0;
+}
+textarea{
+  
+}
+.Contact_titre{
+  width: 100%;
+  p{
+    font-size:small ;
+  }
+  hr {
+    width: 25em;
+    margin: auto;
+  }
+}
+
+label {
+  margin-left: 0em;
 }
 .Contact_main_icones{
   display: flex;
@@ -214,6 +267,9 @@ label {
   margin-bottom: 0px;
 
 }
+footer p {
+  margin: 0em;
+}
 
 .footer_John_Doe a {
   text-decoration: none;
@@ -221,14 +277,14 @@ label {
 }
 
 .footer_John_Doe_titre {
-  margin-bottom: 1em;
-  padding-top: 1em;
-
-
-  
+  margin-bottom: 0.3em;
+  padding-top: 2em;
+}
+.footer img {
+  margin-top: 1.5em;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+@media only screen and (min-device-width : 480px) and (max-device-width : 1324px){
   //TABLET MENTIONS LEGALES//
   
   .Mentions_liste {
@@ -336,7 +392,7 @@ label {
 
 //MOBILE QUERRIES//
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
 
   //HOME MOBILE STYLE//
     .home_main_bloc, .Contact_main_bloc {
@@ -470,4 +526,3 @@ label {
 
 
   
- 
