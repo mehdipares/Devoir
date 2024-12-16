@@ -8,8 +8,20 @@ import { Navihome } from "../component/navihome";
  
    
 
+
   
 const Home = () => {
+  const [users,setUsers] = useState([]);
+  const getUsers = async () => {
+    const res = await fetch("https://api.github.com/users/github-john-doe");
+    const json = await res.json();
+    setUsers(json);
+
+  }
+  useEffect(() => {
+    getUsers();
+    
+  },[])
     return (
       <div classname="home">
         <header>
@@ -35,8 +47,11 @@ const Home = () => {
                       <div>
 
                       </div>
+                      <ul>
+                        {users.map(user =>(
+                          <li>{user.login}</li>))}
+                      </ul>
                       <div>
-                        <p></p>
                         <hr></hr>
                         <p></p>
                         <hr></hr>
@@ -48,7 +63,9 @@ const Home = () => {
                         <hr></hr>
                         <p>Following:</p>
                         <hr></hr>
-                      </div>
+                       </div>
+                      
+                        
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

@@ -15,10 +15,7 @@ import Footer from "./component/foot.jsx";
 
 export default function app() {
  
-  useEffect(() => {
-    console.log("https://api.github.com/users/github-john-doe")
-  },[])
-
+  
   
   return ( 
   
