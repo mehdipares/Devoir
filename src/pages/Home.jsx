@@ -1,10 +1,14 @@
 
 import img1 from "../images/images/john-doe-about.jpg";
 import Footer from "../component/foot";
+import React, {useState,useEffect} from "react";
 
 import { Navihome } from "../component/navihome";
 
+ 
+   
 
+  
 const Home = () => {
     return (
       <div classname="home">
@@ -13,12 +17,47 @@ const Home = () => {
         </header>
           <section className="home_main">
               <div className='Home_main_background'>
+                
                 <div className="Home_main_hello">
                       <h1><strong>Bonjour, je suis John Doe</strong></h1>
                       <h2>Développeur web full stack</h2>
-                      <button type="button" class="btn btn-danger">En savoir plus</button>
+                      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">En savoir plus</button>
                 </div>
               </div>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Mon profil Github</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div>
+
+                      </div>
+                      <div>
+                        <p></p>
+                        <hr></hr>
+                        <p></p>
+                        <hr></hr>
+                        <p>As we all know, John Doe's identity is unknown. I just wanted to contribute whithout being known.</p>
+                        <hr></hr>
+                        <p>repository:</p>
+                        <hr></hr>
+                        <p>Followers:</p>
+                        <hr></hr>
+                        <p>Following:</p>
+                        <hr></hr>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
 
 
               <div className='home_main_bloc'>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 import {Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  Image  from "./images/images/john-doe-about.jpg";
@@ -13,8 +13,13 @@ import img1 from "./images/images/john-doe-about.jpg";
 import Footer from "./component/foot.jsx";
 
 
-function app() {
+export default function app() {
  
+  useEffect(() => {
+    console.log("https://api.github.com/users/github-john-doe")
+  },[])
+
+  
   return ( 
   
 
@@ -39,5 +44,5 @@ function app() {
 }
 
 
-export default app;
+
 
