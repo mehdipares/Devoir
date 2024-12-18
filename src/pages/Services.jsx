@@ -1,5 +1,5 @@
 import { Naviservices } from "../component/naviservices";
-import Footer from "../component/foot";
+import Footer from "../component/Foot";
 import banner from "../images/images/banner.jpg";
 import brush from "../images/images/brush.png";
 import html from "../images/images/html.png";

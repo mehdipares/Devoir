@@ -1,6 +1,6 @@
 import {Routes, Route} from "react-router-dom";
 import { Navicontact } from "../component/navicontact";
-import Footer from "../component/foot";
+import Footer from "../component/Foot";
 import map from "../images/images/map.png";
 import point from "../images/images/pointmap.png";
 import phone from "../images/images/phone.png";

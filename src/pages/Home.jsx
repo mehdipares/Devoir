@@ -1,6 +1,6 @@
 
 import img1 from "../images/images/john-doe-about.jpg";
-import Footer from "../component/foot";
+import Footer from "../component/Foot";
 import React, {useState,useEffect} from "react";
 
 import { Navihome } from "../component/navihome";
@@ -36,37 +36,33 @@ const Home = () => {
                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">En savoir plus</button>
                 </div>
               </div>
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" data-bs-theme="dark" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h1 class="modal-title fs-5" id="staticBackdropLabel">Mon profil Github</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <div>
-
-                      </div>
-                      <ul>
-                        {users.map(user =>(
-                          <li>{user.login}</li>))}
-                      </ul>
-                      <div>
+                    
+                        <img src={users.avatar_url}></img>
+                      
+                      <div className="modal_info">
+                        <p>{users.name}</p>
                         <hr></hr>
-                        <p></p>
+                        <p>{users.name}</p>
                         <hr></hr>
                         <p>As we all know, John Doe's identity is unknown. I just wanted to contribute whithout being known.</p>
                         <hr></hr>
-                        <p>repository:</p>
-                        <hr></hr>
-                        <p>Followers:</p>
-                        <hr></hr>
-                        <p>Following:</p>
-                        <hr></hr>
-                       </div>
-                      
-                        
+                        <p>{users.public_repos}</p>
+                          <hr></hr>
+                        <p>{users.followers}</p>
+                          <hr></hr>
+                        <p>{users.following}</p>
+                          <hr></hr>
+                      </div>
                     </div>
+                    
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                       <button type="button" class="btn btn-primary">Understood</button>

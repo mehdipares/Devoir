@@ -1,5 +1,5 @@
 import { Navifolio } from "../component/navifolio";
-import Footer from "../component/foot";
+import Footer from "../component/Foot";
 import Freshfood from "../images/images/portfolio/fresh-food.jpg";
 import Akira from "../images/images/portfolio/restaurant-japonais.jpg";
 import Bienetre from "../images/images/portfolio/espace-bien-etre.jpg";

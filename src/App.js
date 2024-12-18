@@ -10,7 +10,7 @@ import Mentions from './pages/legal';
 import Portefolio from "./pages/Portefolio"; 
 import Services from "./pages/Services";
 import img1 from "./images/images/john-doe-about.jpg";
-import Footer from "./component/foot.jsx";
+import Footer from "./component/Foot.jsx";
 
 
 export default function app() {

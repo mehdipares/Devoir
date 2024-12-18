@@ -34,7 +34,33 @@ body {
   margin-bottom: 0;
   height: 100%;
 }
+.card:hover{
+  background-color: #efefef;
+  box-shadow: 10px 20px 30px #cdd4db;
+}
+  
+.card .btn:hover{
+  filter: brightness(1.5);
+}
+.navbar a:hover{
+  text-decoration: underline ;
+}
+.navbar .active{
+  text-decoration: underline ;
+}
                  /*Home style*/
+.modal_info, .modal-header {
+  color: white;
+}
+.modal-body{
+  display: flex;
+  
+  img{
+    height: 20em;
+    height: 20em;
+  }
+
+}
                  
 .home_main h1, strong{ 
   font-family: 'nuno_bold';
@@ -248,11 +274,30 @@ label {
 }
             
                 /*Footer style*/
+.Footer_background{
+  background-color: #212529;  
 
-
+}
+.footer_grid{
+  width: 75%;
+  background-color: #212529;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(10em);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5em;
+  
+  
+}
 .footer_John_Doe_Social img{
   opacity: 0.3;
   margin-right: 10px;
+}
+.footer_John_Doe_Social img:hover{
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .footer {
@@ -262,7 +307,7 @@ label {
   display: flex;
   flex-direction: row;
   justify-content:space-evenly;
-  margin-bottom: 0px;
+  margin-bottom: 0em;
 
 }
 footer p {
@@ -273,14 +318,23 @@ footer p {
   text-decoration: none;
   color: white;
 }
+.footer_John_Doe{
+  margin-bottom: 4em;
+  margin-top: 4em;
+}
 
 .footer_John_Doe_titre {
   margin-bottom: 0.3em;
   padding-top: 2em;
 }
-.footer img {
+.footer_grid img {
   margin-top: 1.5em;
+ 
 }
+.footer_grid a:hover {
+  font-weight: bold;
+}
+
 
 @media only screen and (min-device-width : 480px) and (max-device-width : 1324px){
   //TABLET MENTIONS LEGALES//
@@ -452,7 +506,7 @@ footer p {
   
     //FOOTER MOBILE STYLE//
     
-    .footer {
+    .footer_grid {
     background-color: #212529;
     color: white;
     display: flex;
