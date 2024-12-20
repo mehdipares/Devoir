@@ -52,6 +52,22 @@ body {
 .modal_info, .modal-header {
   color: white;
 }
+
+.modal_info {
+  hr{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  p{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right:0.5em ;
+  }
+  svg{
+    margin-right: 0.5em;
+  }
+  
+}
 .modal-body{
   display: flex;
   
@@ -186,6 +202,7 @@ body {
 }
 .services_blocs .card {
   margin: 2em;
+  width: 28em;
   
 }
 
@@ -332,7 +349,7 @@ footer p {
  
 }
 .footer_grid a:hover {
-  font-weight: bold;
+  font-weight: bold
 }
 
 

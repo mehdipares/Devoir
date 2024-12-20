@@ -1,12 +1,12 @@
+
 import {Routes, Route} from "react-router-dom";
 import { Navicontact } from "../component/navicontact";
-import Footer from "../component/Foot";
-import map from "../images/images/map.png";
-import point from "../images/images/pointmap.png";
-import phone from "../images/images/phone.png";
-import mail from "../images/images/mail.png";
+
+
 export default function Contacts () {
     return (
+    
+        <html>
         <div className="cont">
             <header>
                 <Navicontact/>
@@ -39,16 +39,26 @@ export default function Contacts () {
 
                   <section className="Home_main_article">
                     <div className="Contact_main_icones">
-                        <img src={map} style={{width: 20 + 'px', height: 20 + 'px'}}></img><p>40 rue Laure diebold</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"/>
+                    </svg><p>40 rue Laure diebold</p>
                     </div>
                     <div className="Contact_main_icones">
-                        <img src={point} style={{width: 20 + 'px', height: 20 + 'px'}}></img><p>69009 Lyon, France</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg><p>69009 Lyon, France</p>
                     </div>
                     <div className="Contact_main_icones">
-                        <img src={phone} style={{width: 20 + 'px', height: 20 + 'px'}}></img><p>10 20 30 40 50</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                    </svg><p>10 20 30 40 50</p>
                     </div>
                     <div className="Contact_main_icones">
-                        <img src={mail} style={{width: 20 + 'px', height: 20 + 'px'}}></img><p>john.doe@gmail.com</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg><p>john.doe@gmail.com</p>
                     </div>
                    
                 
@@ -63,6 +73,7 @@ export default function Contacts () {
                 
             </main>
         </div>
+        </html>
     );
       
            

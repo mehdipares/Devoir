@@ -11,6 +11,8 @@ import Portefolio from "./pages/Portefolio";
 import Services from "./pages/Services";
 import img1 from "./images/images/john-doe-about.jpg";
 import Footer from "./component/Foot.jsx";
+import { Navicontact } from "./component/navicontact.jsx";
+
 
 
 export default function app() {
