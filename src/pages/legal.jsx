@@ -1,4 +1,4 @@
-import { Navilegal } from "../component/navilegal";
+import { Navilegal } from "../component/Navilegal";
 import Footer from "../component/Foot";
 import map from "../images/images/map.png";
 import point from "../images/images/pointmap.png";
