@@ -11,7 +11,7 @@ export default function Footer () {
         <h4 className="footer_John_Doe_titre">John Doe</h4>
         <p>40 rue Laure Diebold</p>
         <p>69009 Lyon, France</p>
-        <p>10 20 30 40 50</p>
+        <p>01 20 30 40 50</p>
         <p>john.doe@gmail.com</p>
         <div className="footer_John_Doe_Social">
           <img src={github} style={{width: 40 + 'px', height: 40 + 'px'}} alt="Github logo"></img>
