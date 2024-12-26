@@ -1,4 +1,4 @@
-import { Navifolio } from "../component/navifolio";
+import { Navifolio } from "../component/Navifolio";
 import Footer from "../component/Foot";
 import Freshfood from "../images/images/portfolio/fresh-food.jpg";
 import Akira from "../images/images/portfolio/restaurant-japonais.jpg";
