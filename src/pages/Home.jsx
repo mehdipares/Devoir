@@ -3,7 +3,7 @@
 import Footer from "../component/Foot";
 import React, {useState,useEffect} from "react";
 import img1 from "../images/images/john-doe-about.jpg"
-import { Navihome } from "../component/navihome";
+import { Navihome } from "../component/Navihome";
 
  
    
