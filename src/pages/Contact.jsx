@@ -1,6 +1,6 @@
 
 import {Routes, Route} from "react-router-dom";
-import { Navicontact } from "../component/navicontact";
+import { Navicontact } from "../component/Navicontact";
 
 
 export default function Contacts () {
