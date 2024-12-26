@@ -25,7 +25,7 @@ const Portefolio = () => {
                 <div class="groupe_cards">
                         <div class="col">
                             <div class="card text-center h-100">
-                            <img src={Freshfood} class="card-img-top" alt="..."></img>
+                            <img src={Freshfood} class="card-img-top" alt="fresh vegetables"></img>
                             <div class="card-body">
                                 <p class="card-title"><strong>Fresh Food</strong></p>
                                 <p class="card-text">Site de vente de produits frais en ligne.</p>
@@ -38,7 +38,7 @@ const Portefolio = () => {
                         </div>
                         <div class="col">
                             <div class="card text-center h-100">
-                            <img src={Akira} class="card-img-top" alt="..."></img>
+                            <img src={Akira} class="card-img-top" alt="japanese food, sushis and makis"></img>
                             <div class="card-body">
                                 <p class="card-title"><strong>Restaurant Akira</strong></p>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
@@ -51,7 +51,7 @@ const Portefolio = () => {
                         </div>
                         <div class="col">
                             <div class="card text-center h-100">
-                            <img src={Bienetre} class="card-img-top" alt="..."></img>
+                            <img src={Bienetre} class="card-img-top" alt="ancestral rocks"></img>
                             <div class="card-body">
                                 <p class="card-title"><strong>Espace bien-être</strong></p>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
@@ -66,7 +66,7 @@ const Portefolio = () => {
                         <div class="groupe_cards">
                         <div class="col">
                             <div class="card text-center h-100">
-                            <img src={Seo} class="card-img-top" alt="..."></img>
+                            <img src={Seo} class="card-img-top" alt="SEO word"></img>
                             <div class="card-body">
                                 <p class="card-title"><strong>SEO</strong></p>
                                 <p class="card-text">Amélioration de référencement d'un site e-comerce</p>
@@ -79,7 +79,7 @@ const Portefolio = () => {
                         </div>
                         <div class="col">
                             <div class="card text-center h-100">
-                            <img src={API} class="card-img-top" alt="..."></img>
+                            <img src={API} class="card-img-top" alt="Lines of code displayed on a computer screen."></img>
                             <div class="card-body">
                                 <p class="card-title"><strong>Création d'une API</strong></p>
                                 <p class="card-text">Création d'une API RESTFULL publique.</p>
@@ -92,7 +92,7 @@ const Portefolio = () => {
                         </div>
                         <div class="col">
                             <div class="card text-center h-100">
-                            <img src={Maquette} class="card-img-top" alt="..."></img>
+                            <img src={Maquette} class="card-img-top" alt="Various screens including a computer, laptop, and tablet on a desk."></img>
                             <div class="card-body">
                                 <p class="card-title"><strong>Maquette d'un site web</strong></p>
                                 <p class="card-text">Création du prototype d'un site</p>

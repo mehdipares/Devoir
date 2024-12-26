@@ -14,9 +14,9 @@ export default function Footer () {
         <p>10 20 30 40 50</p>
         <p>john.doe@gmail.com</p>
         <div className="footer_John_Doe_Social">
-          <img src={github} style={{width: 40 + 'px', height: 40 + 'px'}}></img>
-          <img src={twitter} style={{width: 40 + 'px', height: 40 + 'px'}}></img>
-          <img src={linkedin} style={{width: 40 + 'px', height: 40 + 'px'}}></img>
+          <img src={github} style={{width: 40 + 'px', height: 40 + 'px'}} alt="Github logo"></img>
+          <img src={twitter} style={{width: 40 + 'px', height: 40 + 'px'}} alt="twitter logo"></img>
+          <img src={linkedin} style={{width: 40 + 'px', height: 40 + 'px'}} alt="linkedin logo"></img>
         </div>
       </div>
       <div className="footer_John_Doe">

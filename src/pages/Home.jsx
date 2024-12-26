@@ -1,8 +1,8 @@
 
-import img1 from "../images/images/john-doe-about.jpg";
+
 import Footer from "../component/Foot";
 import React, {useState,useEffect} from "react";
-
+import img1 from "../images/images/john-doe-about.jpg"
 import { Navihome } from "../component/navihome";
 
  
@@ -45,7 +45,7 @@ const Home = () => {
                     </div>
                     <div class="modal-body">
                     
-                        <img src={users.avatar_url}></img>
+                        <img src={users.avatar_url} alt="Github user, profile image"></img>
                       
                       <div className="modal_info">
                         <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
@@ -88,8 +88,8 @@ const Home = () => {
                 <div className="home_main_a_propos">
                   <h3 classname>A propos</h3>
                   <hr class="border border-primary border-2 opacity-75"></hr>
-                  <section className="Home_main_article">
-                    <img src={img1}></img>
+                  <div className="Home_main_article">
+                    <img src={img1} alt="Focused person working in front of a computer screen."></img>
                     <p>
                     Nullam ultricies malesuada venenatis. Praesent blandit placerat urna id rutrum. Vestibulum magna lorem, tempus sit amet dapibus non, pharetra sed risus.
                     </p>
@@ -99,14 +99,14 @@ const Home = () => {
                     <p>
                     ellentesque ut laoreet massa. Fusce velit massa, sodales sit amet nisi id, vestibulum dapibus tortor. Mauris accumsan dolor felis, in tempor massa iaculis ac. 
                     </p>
-                  </section>
+                  </div>
                 </div>
 
                 <div className="Home_main_skills">
                   <h3>Mes compétences</h3>
                   <hr class="border border-primary border-2 opacity-75"></hr>
 
-                  <section className="Home_main_article">
+                  <div className="Home_main_article">
                 
                     <div className="Skills_container">
                         <div className="Home_main_bar_container">
@@ -142,7 +142,7 @@ const Home = () => {
                           </div>
                         </div>
                   </div>
-                  </section>
+                  </div>
               </div>
 
               </div>
